@@ -8,7 +8,7 @@
 ```
 docker run -d \
   -e TELEGRAM_BOT_TOKEN=你从BotFather获取的机器人TOKEN \
-  -e TELEGRAM_CHAT_ID=你的TG频道ID \
+  -e TELEGRAM_CHAT_ID=你的TG频道ID（https://t.me/xxxxxxx转换成@xxxxxxx即可） \
   --name nolem \
   josemespitia/nolem:latest
 ```
