@@ -21,5 +21,7 @@
 ## 商家监控配置JSON以dmit商家举例说明，其他商家请自行添加相关配置
 ## 商家信息
 * 名称 (name): DMIT
-* 标签 (tag): #dmit
+* 标签 (tag): ```#dmit```
 * 商家评论 (review_content): 商家评论：大妈
+## 库存状态（缺货关键字）
+缺货状态文本 (out_of_stock_text): ```Out of Stock``` （缺货时显示）
