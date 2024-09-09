@@ -4,7 +4,14 @@
 1.创建一个tg机器人以及一个tg频道  
 2.一个独立的vps（自己完全控制，并注意避免泄露自己的机器人token）  
 ## 安装
-## 安装python3
+## Docker安装
+```docker run -d \
+  -e TELEGRAM_BOT_TOKEN=你从BotFather获取的机器人TOKEN \
+  -e TELEGRAM_CHAT_ID=你的TG频道ID \
+  --name melody \
+  josemespitia/melody:latest
+```
+## 普通安装
 1.大多数 Linux 发行版都预装了 Python。您可以通过以下命令检查版本：  
 ```python --version```  
 2.如果您的系统没有 Python，或者您需要特定版本，则可以使用发行版的包管理器进行安装。例如，在 Ubuntu 上，您可以使用以下命令：  
