@@ -9,7 +9,7 @@
 docker run -d \
   -e TELEGRAM_BOT_TOKEN=你从BotFather获取的机器人TOKEN \
   -e TELEGRAM_CHAT_ID=你的TG频道ID \
-  --name melody \
+  --name nolem \
   josemespitia/nolem:latest
 ```
 ## 普通安装
