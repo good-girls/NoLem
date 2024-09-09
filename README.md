@@ -10,7 +10,7 @@ docker run -d \
   -e TELEGRAM_BOT_TOKEN=你从BotFather获取的机器人TOKEN \
   -e TELEGRAM_CHAT_ID=你的TG频道ID \
   --name melody \
-  josemespitia/melody:latest
+  josemespitia/nolem:latest
 ```
 ## 普通安装
 1.大多数 Linux 发行版都预装了 Python。您可以通过以下命令检查版本：  
