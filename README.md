@@ -4,7 +4,7 @@
 1.创建一个tg机器人以及一个tg频道  
 2.一个独立的vps（自己完全控制，并注意避免泄露自己的机器人token）  
 ## 安装
-## Docker安装
+## Docker安装(latest版本仅适用于arm结构，amd结构需使用v1.0.2版本，请自行选择）
 ```
 docker run -d \
   -e TELEGRAM_BOT_TOKEN=你从BotFather获取的机器人TOKEN \
