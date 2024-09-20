@@ -58,11 +58,11 @@ docker run -d \
 1. 启动监控：
 
     ```bash
-    python monitor.py
+    python3 monitor.py
     ```
     ## 常驻后台运行
     ```bash
-    nohup python monitor.py &
+    nohup python3 monitor.py &
     ```
 
 
